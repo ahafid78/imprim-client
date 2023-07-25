@@ -47,7 +47,7 @@ export default function Main({ ProductProps }) {
                                 <h3> <span className="title">{product.title}</span> </h3>
                                 <div style={{ display: 'flex' }}>
                                
-                                    <h6> <span className="price"> {product.price} £ </span> </h6>
+                                    <h1> <span className="price"> {product.price} £ </span> </h1>
                                     {/* <h6>{product?.rating?.rate}</h6> */}
                                     {/* <h6>{product?.rating?.count}</h6> */}
                                 </div>
