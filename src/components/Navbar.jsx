@@ -8,7 +8,7 @@ export default function Navbar() {
 
         <nav>
                 <div>
-                {/* <a href="https://laciar.com" target="_blank"><img src={logoURL} width="120px" /></a>  */}
+                <a href="#" target="_blank"><img src={logoURL} width="120px" /></a> 
                 </div> 
 
                 <div className="qui">
