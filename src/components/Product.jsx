@@ -11,7 +11,7 @@ export default function Product({ product }) {
                 <div  style={{ display: 'flex' }}>
                     <p><span className="description"> {product.description} </span></p>
 
-                    <h6> <span className="detitle"> {product.price} £ </span> </h6>
+                    <h1> <span className="price"> {product.price} £ </span> </h1>
 
                     {/* <h6>{product?.rating?.rate}</h6>
                     <h6>{product?.rating?.count}</h6> */}
