@@ -75,6 +75,9 @@ p{
 .title {
   color:white;
 }
+.price{
+  color:red;
+}
 
 .text{
   font-size:x-large;
