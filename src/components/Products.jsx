@@ -57,7 +57,7 @@ export default function Main({ ProductProps }) {
                                         {/*  On lie le button avec la function qui store l'objet du produit onclick */}
                                         <button onClick={(e) => ProductProps(e, product)} id="details">details du produit</button>
                                     </Link>
-                                    <button id="add_to_cart"><a href="https://laciar.com/trouvez-votre-agence" target="_blank">Trouver une agence</a></button>
+                                    <button id="add_to_cart"><a href="#" target="_blank">Trouver un point de vente</a></button>
                                 </div>
                             </div>
 

@@ -16,11 +16,11 @@ export default function Navbar() {
                             <h3>Nos Produits</h3>
                     </Link> 
                 </div>
-                <div className="qui">
+                {/* <div className="qui">
                     <Link to={"/agences"}>
-                            <h3>Nos points de vente</h3>
+                            <h3>No</h3>
                     </Link> 
-                </div>
+                </div> */}
                 <div className="qui">
                     <Link to={"/"}>
                             <h3>Qui somme-nous ?</h3>
