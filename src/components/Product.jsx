@@ -4,7 +4,7 @@ export default function Product({ product }) {
     return (
         <div className="desc">
 
-            <div >
+            <div  className="product-card">
                 <div className="descimg"><img  src={product.image} alt={product.title} width={200} height={200} /></div>
                 
                 <div><h3 ><span className="detitle"> {product.title} </span> </h3></div>
@@ -17,7 +17,7 @@ export default function Product({ product }) {
                     {/* <h6>{product?.rating?.rate}</h6>
                     <h6>{product?.rating?.count}</h6> */}
                 </div>
-                
+
             </div>
                    
         </div>
