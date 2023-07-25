@@ -8,7 +8,7 @@ export default function Navbar() {
 
         <nav>
                 <div>
-               <img src={logoURL} width="120px" />
+               <img src={logoURL} width="75px" />
                 </div> 
 
                 <div className="qui">
